@@ -1,0 +1,221 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #f5f7ff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header Section */
+.header {
+  background-color: #f5f7ff;
+  padding: 40px 0;
+  text-align: center;
+  background-image: url(Hero-bg.png);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #5a52e8;
+}
+
+.nav-btn {
+  background: #5a52e8;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-text {
+  margin-top: 60px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #5a52e8;
+}
+
+.primary-btn {
+  background-color: #5a52e8;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Video Section */
+.video-section {
+  padding: 60px 0;
+}
+
+.video-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-left {
+  max-width: 50%;
+}
+
+.video-right img {
+  border-radius: 10px;
+}
+
+/* Stats */
+.stats {
+  padding: 50px 0;
+  background: #e8ebff;
+}
+
+.stat-box {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stat-box div h3 {
+  font-size: 28px;
+  color: #5a52e8;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  width: 30%;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.user {
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+.nani{
+    display: flex;
+    gap: 20px;
+}
+
+/* Focus */
+.focus {
+  margin:  0 auto;
+  background: #ffffff;
+}
+
+
+.focus-box {
+  text-align: center;
+}
+
+.focus-box img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 0;
+  margin-top: 20px;
+  
+}
+
+.contact h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 56px;
+}
+
+.contact h2 span {
+  color: #000;
+}
+.bala{
+    display: flex;
+    gap: 200px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+.footer {
+  background-color: #f5f7ff;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: lighter;
+  
+}
+.nana{
+    font-size: 60px;
+    color: #5a52e8;
+}
+.sifat{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sifat a{
+  text-decoration: none;
+  color: gray;
+}
